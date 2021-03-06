@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "watch": "cross-env NODE_ENV=development postcss css/all.tailwind.css -o  css/all.css",
+    "build": "cross-env NODE_ENV=production postcss css/full.tailwind.css -o  css/full.css",
+    "prod": "cross-env NODE_ENV=development postcss style.tailwind.css -o  style.min.css"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-import": "^14.0.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "name": "tail",
+  "version": "1.0.0",
+  "main": "postcss.config.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
